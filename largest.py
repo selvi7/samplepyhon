@@ -1,12 +1,6 @@
-print ("enter the number")
-try:
-    x=int(input())
-if 10>5:
-    print ("enter the largest number")
+print("Enter the number")
+x=int(input())
+if x>=3:  
+    print("the given number is ", x, "largest")  
 else:
-    print ("not a larger number")
- except:
-        print("invalid input")
-
-
-    
+    print("the given number is" ,x, "smaller")    
