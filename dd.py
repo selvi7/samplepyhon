@@ -1,7 +1,6 @@
-Number = int(input("Please Enter any Number: "))
-Count = 0
+Number=int(input("please enter any number:"))
+Count=0
 while(Number > 0):
-    Number = Number // 10
+    Number = Number //10
     Count = Count + 1
-
-print("\n Number of Digits in a Given Number = %d" %Count)
+print("\n number of digits in a given number=%d" %Count)    
