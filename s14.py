@@ -1,7 +1,7 @@
-A7=input("Enter the num:")
-B7=0
-for i in A7:
-	if A7.count(i)>B7:
-		B7=A7.count(i)
-		i1=i
-print(i1)	
+d=(input("Enter the num:"))
+s=list(d)
+for i in s:
+	if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u'):
+		s.remove(i)
+k=s[::-1]
+print("".join(k))
