@@ -1,10 +1,10 @@
-n=int(input("Enter number:"))
-temp=n
+x=int(input("Enter number:"))
+temp=x
 rev=0
-while(n>0):
-    dig=n%10
+while(x>0):
+    dig=x%10
     rev=rev*10+dig
-    n=n//10
+    x=x//10
 if(temp==rev):
     print("The number is a palindrome!")
 else:
