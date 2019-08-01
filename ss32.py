@@ -1,3 +1,3 @@
 import statistics
-array=[10,20,30,40,50]
-print(statistics.median(array))
+array1=[10,20,30,40,50]
+print(statistics.median(array1))
