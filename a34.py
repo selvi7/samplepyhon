@@ -1,4 +1,4 @@
-y=input("enter the char:")
+y=input("enter the num:")
 if y==1:
     print("r")
 else:
